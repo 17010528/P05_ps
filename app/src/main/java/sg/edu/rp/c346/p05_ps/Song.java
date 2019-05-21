@@ -4,13 +4,13 @@ public class Song {
 
     private int _id;
     private String title;
-    private String slingers;
+    private String singers;
     private int year;
     private int stars;
 
-    public Song(String title, String slingers, int year, int stars) {
+    public Song(String title, String singers, int year, int stars) {
         this.title = title;
-        this.slingers = slingers;
+        this.singers = singers;
         this.year = year;
         this.stars = stars;
     }
@@ -23,8 +23,8 @@ public class Song {
         return title;
     }
 
-    public String getSlingers() {
-        return slingers;
+    public String getSingers() {
+        return singers;
     }
 
     public int getYear() {
