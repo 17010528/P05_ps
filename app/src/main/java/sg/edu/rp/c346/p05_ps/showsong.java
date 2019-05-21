@@ -39,7 +39,7 @@ public class showsong extends AppCompatActivity {
         lv.setAdapter(aa);
 
         btnShow5Stars.setOnClickListener(new View.OnClickListener() {
-            @Override
+            @Override7
             public void onClick(View view) {
 
                 for(int i =0; i<song.size(); i++){
